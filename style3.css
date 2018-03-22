@@ -113,7 +113,7 @@ input:-webkit-autofill:focus {
 }
 
 .area-title h2::after {
-/*    background: rgba(0, 0, 0, 0) url("img/icons/red.png") no-repeat scroll center center / contain;*/
+    background: rgba(0, 0, 0, 0) url("img/icons/red.png") no-repeat scroll center center / contain;
     bottom: 0;
     content: "";
     height: 30px;
@@ -152,7 +152,7 @@ input:-webkit-autofill:focus {
 ---------------------------*/
 
 .top-area {
-    height: 70%;
+    height: 100%;
     position: relative;
     width: 100%;
 }
@@ -268,10 +268,10 @@ input:-webkit-autofill:focus {
     border-bottom: 0 none;
     border-top: 0 none;
     margin-bottom: 0;
-    background-color: grey;
 }
 
 ul#nav {
+    float: right;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -376,7 +376,6 @@ ul#nav li.active a {
     position: relative;
     font-weight: 900;
     color: #fff;
-   /* margin-top: 100px;*/
 }
 
 .slider-area h1 {
@@ -452,7 +451,7 @@ a.home-reservation-button:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-top: 5%;
+    padding-top: 5%
 }
 
 .pogoSlider-slide::after {
@@ -731,9 +730,7 @@ a.read-more {
 .reservation-button-area-bg,
 .blog-area-bg,
 .footer-area-bg {
-    background: rgba(0, 0, 0, 0) url("picture/foto-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_1.jpg") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
     position: absolute;
@@ -746,7 +743,7 @@ a.read-more {
 .blog-area-bg:after,
 .footer-area-bg::after,
 .page-barner-bg::after {
-    background: #aa5000;
+    background: #000 url("img/pattarn.png");
     content: "";
     height: 100%;
     left: 0;
@@ -956,6 +953,7 @@ a.reservation-button:hover {
 }
 
 .table-booking-form {
+    background: #ca3d26 none repeat scroll 0 0;
     display: block;
     padding: 30px 20px;
     z-index: 99;
@@ -964,7 +962,7 @@ a.reservation-button:hover {
 
 .table-booking-form input,
 .table-booking-form select {
-    border: 2px solid #BB9973;
+    border: 2px solid;
     color: #fff;
     height: 40px;
     position: relative;
@@ -972,7 +970,7 @@ a.reservation-button:hover {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background: #BB9973;
+    background: transparent;
     cursor: pointer;
     padding: 0 10px;
     margin-bottom: 30px;
@@ -987,9 +985,9 @@ a.reservation-button:hover {
 }
 
 .table-booking-form button {
-    background: #bb9872 none repeat scroll 0 0;
-    border: 2px solid #bb9872;
-    color: #787f74;
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid;
+    color: #fff;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1992,12 +1990,7 @@ ul.blog-instagram-feed-widget li {
     font-weight: 700;
 }
 
-.cursi{
-    ont-family: 'Dancing Script', cursive;
-    font-size: 82px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-}
+
 /*---------------------------------
     COOKING EFFECT
 -----------------------------------*/
@@ -2036,30 +2029,3 @@ ul.blog-instagram-feed-widget li {
 /*==================================
         END OF MAIN STYLESHEET
 ====================================*/
-.tex{
-    border: 2px solid;
-    color: #fff;
-    height: 40px;
-    position: relative;
-    width: 100%;
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    background: transparent;
-    cursor: pointer;
-    padding: 0 10px;
-    margin-bottom: 30px;
-}
-
-.itemu{
-    padding-right: 10px;
-    margin-bottom: 10px;
-}
-
-.htes{
-    font-size: 28px;
-    font-weight: 900;
-    color: red;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}

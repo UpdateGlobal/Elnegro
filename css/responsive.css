@@ -3,7 +3,7 @@
 -------------------------------*/
 
 .preeloader {
-    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+/*    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;*/
     height: 100%;
     position: fixed;
     width: 100%;
@@ -25,9 +25,10 @@
     margin-top: -30px;
     padding-top: 12px;
     z-index: 99;
-    background: #1a1a1a;
-    color: #ca3d26;
+    background: #bb9872;
+    color: #562e1a;
 }
+
 
 @-webkit-keyframes loader {
     0% {
