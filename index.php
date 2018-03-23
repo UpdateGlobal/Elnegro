@@ -40,11 +40,11 @@
 <?php
 
 
-    // include 'layout/nosotros.php';
-    // include 'layout/slidepromociones.php';
-    // include 'layout/elnegro.php';
-    // include 'layout/contacto.php';
-    // include 'layout/footer.php';
+    include 'layout/nosotros.php';
+    include 'layout/slidepromociones.php';
+    include 'layout/elnegro.php';
+    include 'layout/contacto.php';
+    include 'layout/footer.php';
     include 'particles/script.php';
 ?>
    
