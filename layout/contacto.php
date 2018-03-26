@@ -8,6 +8,7 @@
                         <h2 style="color: white;">Contactanos</h2>
                         <br>
                         <img src="picture/blanco.png">
+                        <p class="txcnt">Quisque sit amet turpis et ipsum elementum facilisis. Quisque sed placerat libero. Pellentesque nec tellus sollicitudin, </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
@@ -49,3 +50,4 @@
         </div>
     </section>
     <!--SPEACIAL CONTACTO AREA END-->
+

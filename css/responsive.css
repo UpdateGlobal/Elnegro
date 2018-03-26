@@ -128,7 +128,7 @@
     TABLET LAYOUT: 768px
 ------------------------------------*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 768px) and (min-width: 768px) {
     .section-padding {
         padding: 50px 0;
     }
@@ -342,8 +342,8 @@
         display: none;
     }
     ul#nav {
-        width: 100%;
-        max-height: 200px;
+        width: auto;
+        /* max-height: 200px; */
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -380,7 +380,11 @@
         display: block;
     }
     ul#nav li a {
-        color: #fff;
+        /* padding-top: 10px; */
+        color: #000;
+        margin: 0px -2px 2px;
+        letter-spacing: -2px;
+        /* margin-top: 10px; */
     }
     ul#nav li.active>a,
     ul#nav li:hover>a {

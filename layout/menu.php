@@ -1,37 +1,21 @@
-            <div class="mainmenu-area-bg"></div>
-                <nav class="navbar">
+    
+          
+                <nav class="navbar navbar-fixed-top" role="navigation">
                     <div class="container">
-                        <div class="navbar-header">
-                            <button class="collapsed navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-scrollspy">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a href="index.html#home" class="navbar-brand"><img src="img/main_logo_black.png" alt="logo"></a>
-                            <a href="index.html#home" class="navbar-brand white"><img src="img/main_logo.png" alt="logo"></a>
-                        </div>
-                        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
-                            <div class="search-form-area">
-                                <div class="search-form-overlay"></div>
-                                <a class="search-form-trigger" href="index.html#search-form">Search<span></span></a>
-                                <div id="search-form" class="search-form">
-                                    <form>
-                                        <input type="search" placeholder="Search...">
-                                    </form>
+                            <div class="navbar-collapse bs-example-js-navbar-scrollspy collapse in" aria-expanded="false" style=""> 
+                                <div class="row less" align="center">
+                                   <img src="picture/logo-negro.png" class="logo-negro"  alt="logo">
                                 </div>
+                                <div align="center">
+                                        <ul id="nav" class="de">
+                                            <li style="margin-top: 10px;"><a href="#home">Inicio</a> </li>
+                                            <li style="margin-top: 10px;"><a href="#historia">Historia</a></li>
+                                            <li style="margin-top: 10px;"><a href="#elnegro">Nosotros</a></li>
+                                            <li style="margin-top: 10px;"><a href="#productos">Productos</a></li>
+                                            <li style="margin-top: 10px;"><a href="#contacto">Contacto</a></li>
+                                     </ul>
+                                 </div>
                             </div>
-                            <ul id="nav" class="nav navbar-nav">
-                                <li class="active"><a href="index.html#home">Home</a> </li>
-                                <li><a href="index.html#about">about us</a></li>
-                                <li><a href="index.html#promotion">Offer</a></li>
-                                <li><a href="index.html#menu">Menu</a></li>
-                                <li><a href="index.html#team">team</a></li>
-                                <li><a href="index.html#blog">blog</a></li>
-                                <li><a href="index.html#gallery">Gallery</a></li>
-                                <li><a href="index.html#contact">Contact</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </nav>
-            </div>
+      

@@ -265,10 +265,12 @@ input:-webkit-autofill:focus {
 }
 
 .navbar {
+    width: 100%;
     border-bottom: 0 none;
     border-top: 0 none;
     margin-bottom: 0;
-    background-color: grey;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #000000;
 }
 
 ul#nav {
@@ -278,7 +280,7 @@ ul#nav {
 
 ul#nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #ffffff;
+    color: #be7b1a;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2063,3 +2065,56 @@ ul.blog-instagram-feed-widget li {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .less {
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .palt {
+  width: 250px;
+  height: 250px;
+ 
+  }
+}
+
+
+
+
+.de{
+    list-style: none;
+    display:inline-flex;
+    padding:0 10px;
+}
+
+.logo-negro {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+
+
+.txcnt{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+
+@media (min-width: 768px) {
+  .sidenav {
+
+
+ 
+  }
+}
+
+
+
+
+
