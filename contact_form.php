@@ -1,5 +1,5 @@
 <?php
-$toEmail = "raulupdate@gmail.com";
+$toEmail = "luizupdate@gmail.com";
 $subject = "Mensaje enviado desde el fomulario";
 $mailHeaders = "From: " . $_POST["nombre"] . "<". $_POST["mail"] .">\r\n";
 
