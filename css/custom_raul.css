@@ -1,0 +1,13 @@
+.table-booking-form textarea {
+    border: 2px solid #BB9973;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #BB9973;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}

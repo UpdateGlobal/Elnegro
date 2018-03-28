@@ -1,13 +1,9 @@
-
 <!doctype html>
 <html lang="es">
 <head>
-    <?php
-        include 'particles/head.php';
-    ?>
+    <?php include 'particles/head.php'; ?>
 </head>
 <body style="margin-right: -15px;">
-
     <?php
         include 'layout/menu.php';
         include 'layout/slide.php';
