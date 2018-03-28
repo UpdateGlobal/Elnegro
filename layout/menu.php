@@ -7,7 +7,7 @@
                                    <img src="picture/logo-negro.png" class="logo-negro"  alt="logo">
                                 </div>
                                 <div align="center">
-                                        <ul id="nav" class="de">
+                                        <ul id="nav" class="de smooth-scroll">
                                             <li style="margin-top: 10px;"><a href="#home">Inicio</a> </li>
                                             <li style="margin-top: 10px;"><a href="#historia">Historia</a></li>
                                             <li style="margin-top: 10px;"><a href="#elnegro">Nosotros</a></li>

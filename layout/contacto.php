@@ -25,7 +25,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                     <label for="name"><i class="fa fa-user-o"></i></label>
-                                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+                                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
                                 </div>
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                     <label for="mobile"><i class="fa fa-send"></i></label>
@@ -34,10 +34,10 @@
                                 </div>
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                     <label for="name"><i class="fa fa-phone"></i></label>
-                                    <input type="text" id="name" placeholder="Celular">
+                                    <input type="text" id="telefono" name="telefono" placeholder="Celular">
                                 </div>
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                    <input type="text" id="name" placeholder="Comentario">            
+                                    <input type="text" id="asunto" name="asunto" placeholder="Comentario">            
                                 </div>     
                                 <div class="col-md-6 col-lg-6 col-sm-6 col-sm-offset-3  col-md-offset-3  col-lg-offset-3 col-xs-12">
                                     <button type="submit">Enviar</button>
